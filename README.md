@@ -57,6 +57,12 @@ Speed with control. And that is precisely what Progressive Delivery enables.
 
 ## Blue Green Deployments
 
+```
+Enable new feature for 100 % of users
+
+With Service Mesh, feature can be deployed to selective users
+```
+
 Increase the agility and confidence of application teams by reducing the risk of outages when deploying new releases.
 
 * It has both the new and old version of the application deployed at the same time
@@ -65,6 +71,28 @@ Increase the agility and confidence of application teams by reducing the risk of
 
 ![image.png](blue-gree.png)
 
+## Possible ways of Blue Green Deployments
+
+### 1. Service Meshes
+
+### 2. Feature Flags
+
+**************************************
+
+## Canary Deployments
+
+```
+Enable new feature for selective % of users (A/B testing)
+
+Faster way of getting user feedback
+```
+
+* Rolling deployments (Deploy one after other server)
+* Side by side deployments 
 
 
+## Continuous Testing
 
+https://launchdarkly.com/blog/what-is-continuous-testing-a-straightforward-introduction1/
+
+## Shift Left Testing
